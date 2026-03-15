@@ -10,6 +10,9 @@
         .zzz_template = .{
             .path = "../zzz_template",
         },
+        .openssl = .{
+            .path = "../openssl-zig",
+        },
     },
     .paths = .{
         "build.zig",
