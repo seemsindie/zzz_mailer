@@ -2,7 +2,7 @@
     .name = .zzz_mailer,
     .version = "0.1.0",
     .fingerprint = 0x3e3b672ce38be7bc,
-    .minimum_zig_version = "0.16.0-dev.2535+b5bd49460",
+    .minimum_zig_version = "0.16.0-dev.2905+5d71e3051",
     .dependencies = .{
         .zzz = .{
             .path = "../zzz.zig",
@@ -12,7 +12,7 @@
         },
         .openssl = .{
             .url = "git+https://github.com/seemsindie/openssl-zig#416d593a34971fdcaf4538e69d9d0973e07c1054",
-            .hash = "N-V-__8AAJtY8QHtVJXQdyYHnumZ0TMi7rkjhlZwh-DjknBr",
+            .hash = "openssl-3.6.0-wZcA75tY8QHtVJXQdyYHnumZ0TMi7rkjhlZwh-DjknBr",
         },
     },
     .paths = .{
