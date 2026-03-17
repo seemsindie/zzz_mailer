@@ -5,10 +5,12 @@
     .minimum_zig_version = "0.16.0-dev.2905+5d71e3051",
     .dependencies = .{
         .zzz = .{
-            .path = "../zzz.zig",
+            .url = "git+https://github.com/seemsindie/zzz.zig#ce507f51ed64c7239a73a4a0fd19bd8c4598e728",
+            .hash = "zzz-0.2.0-beta.1-LYmrMz7CCABJNi_eyq5MH9YWyaVkGbYxeF7TfXkmCD12",
         },
         .zzz_template = .{
-            .path = "../zzz_template",
+            .url = "git+https://github.com/seemsindie/zzz_template#45cec530f5f0f68d9d77ee5966ebea98302b5ea8",
+            .hash = "zzz_template-0.2.0-beta.1-907cK-UAAQAo_RGeGebvARY0_iFlQOabZOfIvhp0CrUU",
         },
         .openssl = .{
             .url = "git+https://github.com/seemsindie/openssl-zig#416d593a34971fdcaf4538e69d9d0973e07c1054",
